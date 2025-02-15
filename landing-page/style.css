@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+/* fonts */
+/* 
+"Alegreya"
+*/
+
+/* main container */
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav bar */
+.h-con{
+    background-color: rgb(232, 174, 183);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h-one{
+    font-family: "Alegreya",sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+    padding: 30px;
+    font-size: 24px;
+}
+li{
+    display: inline;
+    padding: 20px;
+    font-family: roboto;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+/* hero section */
+
+.one{
+    display: flex;
+    background-color: #B8E1FF;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.one-one{
+    width: 30vw;
+    padding: 100px 20px 100px 80px;
+}
+.one-one h1{
+    font-family: "Shadows Into Light";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+}
+.one-one button{
+    background-color: #3882f6;
+    margin: 10px;
+    color: white;
+    font-family: roboto;
+    font-size: 28px;
+    border: 0;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+.one-one p{
+    font-family: roboto;
+    color: #1f2937;
+    font-size: 24px;
+    padding: 0 0 0 10px;
+}
+
+.one-two{
+    padding: 100px 80px 100px 20px;
+}
+.one-two img{
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+
+/* some random information section */
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A9FFF7;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.two h2{
+    padding: 30px;
+    font-size: 40px;
+    font-family: "Alegreya";
+}
+.two-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.two-one div{
+    padding: 20px;
+}
+
+.two-one div img{
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.two-one div p{
+    text-align: center;
+    font-family: sans-serif;
+    color: #1f2937;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+/* testimonial section */
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color: #B8E1FF;
+  
+}
+
+.three .onee{
+    font-size: 36px;
+    margin: 100px 200px 20px 200px;
+    font-style: italic;
+    color: #1f2937;
+}
+.three .twoo{
+    padding: 20px 0px 100px 60vw;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* call to section */
+
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:black;
+    background-color: #A9FFF7;
+}
+
+.m-four{
+    background-color: #3882f6;
+    width: 70%;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.m-t{
+    margin: auto;
+    
+}
+.m-t h2,.m-t p{
+    color: white;
+}
+.m-b{
+    margin: auto;
+}
+
+.m-b button{
+    font-size: 28px;
+    font-family: Roboto;
+    background-color: #3882f6;
+    border: solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: #2E5266;
+    padding: 50px;
+    color: white;
+    font-size: 28px;
+
+}
